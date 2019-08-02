@@ -1,5 +1,5 @@
 ## Best pulseaudio mic settings 
-Copy the pulse audio folder into config
+Copy the pulse audio folder into config and open using nano
 ```
 sudo cp -r /etc/pulse ~/.config/
 sudo nano ~/.config/pulse/daemon.conf
