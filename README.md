@@ -36,6 +36,11 @@ resample-method = speex-float-#
 to the new method that we just found. Delete the semi-colon.
 Ctrl-X, Y, and Enter to save.
 
+Open the **/etc/pulse/default.pa** file and go to the end of the file and add
+```
+load-module module-udev-detect
+```
+
 Restart PulseAudio. To do this, type
 ```
 pulseaudio --kill
@@ -43,3 +48,4 @@ pulseaudio --start
 ```
 Wait a moment, and it will restart itself with the new settings.
 
+You are done!
