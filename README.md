@@ -1,7 +1,7 @@
 ## Best pulseaudio mic settings 
 Install pulseaudio
 ```
-sudo apt install pulseaudio
+sudo apt install pulseaudio pavucontrol
 ```
 Copy the pulse audio folder into config and open using nano
 ```
