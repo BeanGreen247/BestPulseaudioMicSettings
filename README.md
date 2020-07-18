@@ -1,4 +1,8 @@
 ## Best pulseaudio mic settings 
+Install pulseaudio
+```
+sudo apt install pulseaudio
+```
 Copy the pulse audio folder into config and open using nano
 ```
 sudo cp -r /etc/pulse ~/.config/
